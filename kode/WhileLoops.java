@@ -59,6 +59,7 @@ public class WhileLoops{
       int r=1;
       double randomTal;
       double sum=0;
+      double gennemsnit=0.0;
       while (r<=6){
          randomTal=Math.random();
          System.out.println("Math.random()= "+randomTal);
@@ -67,8 +68,21 @@ public class WhileLoops{
          //læg en til r
          r++;
       }
-      //find og udskriv gennemsnit af tallene
+      //find gennemsnit af tallene
       
+      //udskriv gennemsnittet
+      System.out.println("Gennemsnit: " + gennemsnit);
+      
+      
+      //pythagoras kan bruges til at finde afstande i et koordinatsystem
+      //a^2 + b^2 = c^2 => c = kvadratrod(a^2 + b^2)
+      int a=3;
+      int b=4;
+      int c=0;
+      //find og udskriv c ved hjælp af Math.sqrt() og ^
+      
+      //udskriv c
+      System.out.println("A: " + a + "\nB: " + b + "\nC: " + c);
       
    }
    
