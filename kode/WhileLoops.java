@@ -43,8 +43,9 @@ public class WhileLoops{
       //Den lille tabel
       int tabel,j;
       
-      tabel=1; //tabel
+      tabel=1; //tabel 1 - 10
       while (tabel<=10){
+         //indre loop giver tallet, tabellen skal ganges med 1 - 10
          j=1;
          while (j<=10){
             System.out.print(tabel*j + "\t");
@@ -53,6 +54,22 @@ public class WhileLoops{
          System.out.print("\n"); //kunne også være System.out.println();
          tabel++;
       }
+      
+      //random tal
+      int r=1;
+      double randomTal;
+      double sum=0;
+      while (r<=6){
+         randomTal=Math.random();
+         System.out.println("Math.random()= "+randomTal);
+         //tæl summen sammen
+         
+         //læg en til r
+         r++;
+      }
+      //find og udskriv gennemsnit af tallene
+      
+      
    }
    
 }
