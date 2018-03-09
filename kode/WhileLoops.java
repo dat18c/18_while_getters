@@ -75,11 +75,11 @@ public class WhileLoops{
       
       
       //pythagoras kan bruges til at finde afstande i et koordinatsystem
-      //a^2 + b^2 = c^2 => c = kvadratrod(a^2 + b^2)
-      int a=3;
-      int b=4;
-      int c=0;
-      //find og udskriv c ved hjælp af Math.sqrt() og ^
+      //a*a + b*b = c*c => c = kvadratrod(a*a + b*b)
+      double a=3;
+      double b=4;
+      double c=0;
+      //find og udskriv c ved hjælp af Math.sqrt() og *
       
       //udskriv c
       System.out.println("A: " + a + "\nB: " + b + "\nC: " + c);
