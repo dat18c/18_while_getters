@@ -1,7 +1,7 @@
 # 21_while_match
 
 * opsamling øvelser fredag
-** Skole med Student array
+* Skole med Student array new Student[3]
 * while loops
 * Math biblioteket
 
@@ -16,7 +16,7 @@
 
 ### Brug af Math
 * Pytagoras: a^2 + b^2 = c^2.
-** beregn afstand fra origo (0,0) til et punkt i et koordinatsystem
-** mellem to punkter i et koordinatsystem
+* beregn afstand fra origo (0,0) til et punkt i et koordinatsystem
+* mellem to punkter i et koordinatsystem
 
 * find 6 tilfældige tal og beregn gennemsnittet af dem. Brug Math.random()
