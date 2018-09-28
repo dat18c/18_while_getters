@@ -1,6 +1,7 @@
 # 21_while_match
 
-* opsamling øvelser fredag - Skole med Student array
+* opsamling øvelser fredag
+** Skole med Student array
 * while loops
 * Math biblioteket
 
