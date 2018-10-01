@@ -6,7 +6,7 @@
 * Math biblioteket
 
 ## Math
-Table 3.2 i Reges, f.eks.
+Table 3.2 side 181 i Reges, f.eks.
 `````
 import java.util.Math;
 double kvadratrod = Math.sqrt(25.0); // kvadratrod == 5
