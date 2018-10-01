@@ -4,6 +4,8 @@ public class WhileEx2
    {
       int x = 13;
       int y = 39;
+      int z = Math.min(x,y);
+      System.out.println(z);
       
       int gcd = 1;
       int i = 1;
