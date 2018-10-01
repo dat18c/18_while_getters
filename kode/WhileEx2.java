@@ -4,8 +4,6 @@ public class WhileEx2
    {
       int x = 13;
       int y = 39;
-      int z = Math.min(x,y);
-      System.out.println(z);
       
       int gcd = 1;
       int i = 1;
@@ -23,5 +21,25 @@ public class WhileEx2
       //udskriv største fælles divisor
       System.out.println("i efter while: " + i);
       System.out.println("Største fælles divisor: " + gcd);
+      
+      int testGcd = gcd(117, 78);
+      System.out.println(117 + " " + 78 + " " + testGcd);
+      System.out.println(512 + " " + 4096 + " " + gcd(512, 4096)); 
+   }
+   
+   public static int gcd(int a, int b)
+   {
+      int budGcd = 1;
+      int mindsteTal = Math.min(a, b);
+      for (int i=1;i<=mindsteTal;i++)
+      {
+         if ((a%i==0)&&(b%i==0))
+         {
+            budGcd = i;
+            System.out.println("Divisor: " + budGcd);
+         }
+      }
+      System.out.println("Største divisor: " + budGcd);
+      return budGcd;
    }
 }
